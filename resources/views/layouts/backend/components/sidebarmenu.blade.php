@@ -1,5 +1,5 @@
 
-<div data-simplebar="" class="h-100">
+<div data-simplebar class="h-100">
     @php
     $sidebar=sideBarMenu();
 
@@ -15,8 +15,8 @@
                 {{-- <li class="menu-title" data-key="t-apps">Apps</li> --}}
                 @if(!empty($menu['menu']))
 
-
-                <li @if(isset($menu['menu']['can'])) v-can="'{{$menu['menu']['can']}}'" @endif>
+                {{--  @if(isset($menu['menu']['can'])) v-can="'{{$menu['menu']['can']}}'" @endif --}}
+                <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i data-feather="{{$menu['menu']['icon']}}"></i>
                         <span data-key="t-ecommerce">{{$menu['menu']['title']}}</span>
@@ -24,7 +24,8 @@
 
                     <ul class="sub-menu" aria-expanded="false">
                       @foreach ($menu['menu']['sub_menu'] as $item)
-                      <li @if(isset($item['v-can'])) v-can="'{{$item['v-can']}}'" @endif>
+                      {{--  @if(isset($item['v-can'])) v-can="'{{$item['v-can']}}'" @endif --}}
+                      <li>
                         {{-- <a href="ecommerce-products.html" key="t-products">Products</a> --}}
                         <router-link to="{{$item['v-route']}}" key="t-{{$item['title']}}" >{{$item['title']}}</router-link>
                     </li>

@@ -1,7 +1,8 @@
 @extends('layouts.backend.master')
 
 @section('content')
-<transition>
+
+{{-- <transition>
 <router-view></router-view>
-</transition>
+</transition> --}}
 @endsection

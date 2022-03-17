@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme-mode="purple">
 
     <head>
 
@@ -13,21 +13,23 @@
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
         <!-- plugin css -->
-        <link href="{{asset('assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{asset('assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2-3.css')}}" rel="stylesheet" type="text/css">
 
         <!-- preloader css -->
-        <link rel="stylesheet" href="{{asset('assets/css/preloader.min.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{asset('assets/css/preloader.min-3.css')}}" type="text/css">
 
         <!-- Bootstrap Css -->
-        <link href="{{asset('assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css">
-        <!-- Icons Css -->
-        <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css">
-        <!-- App Css-->
-        <link href="{{asset('assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css">
+
+         <!-- Bootstrap Css -->
+         <link href="{{asset('assets/css/bootstrap.min-3.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css">
+         <!-- Icons Css -->
+         <link href="{{asset('assets/css/icons.min-3.css')}}" rel="stylesheet" type="text/css">
+         <!-- App Css-->
+         <link href="{{asset('assets/css/app.min-3.css')}}" id="app-style" rel="stylesheet" type="text/css">
 
     </head>
 
-    <body data-topbar="dark" data-sidebar="dark">
+    <body data-topbar="dark" >
 
     <!-- <body data-layout="horizontal"> -->
         <div id="app">
@@ -229,34 +231,33 @@
      @endphp
      @endif
 </script>
+
         <!-- JAVASCRIPT -->
-        <script src="{{asset('assets/libs/jquery/jquery.min.js')}}"></script>
-        <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-        <script src="{{ asset('js/app.js') }}" ></script>
-        <script src="{{asset('assets/libs/metismenu/metisMenu.min.js')}}"></script>
-        <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
-        <script src="{{asset('assets/libs/node-waves/waves.min.js')}}"></script>
-        <script src="{{asset('assets/libs/feather-icons/feather.min.js')}}"></script>
-        <!-- pace js -->
-        <script src="{{asset('assets/libs/pace-js/pace.min.js')}}"></script>
-        <!-- Scripts -->
 
-        <!-- apexcharts -->
-        <script src="{{asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
-
-        <!-- Plugins js-->
-        <script src="{{asset('assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js')}}"></script>
-        <script src="{{asset('assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js')}}"></script>
-        <!-- dashboard init -->
-        <script src="{{asset('assets/js/pages/dashboard.init.js')}}"></script>
-               <!-- echarts js -->
+                <!-- JAVASCRIPT -->
+                <script src="{{asset('assets/libs/jquery/jquery.min-3.js')}}"></script>
+                <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min-3.js')}}"></script>
+                <script src="{{ asset('js/app.js')}}" ></script>
+                <script src="{{asset('assets/libs/metismenu/metisMenu.min-3.js')}}"></script>
+                <script src="{{asset('assets/libs/simplebar/simplebar.min-3.js')}}"></script>
+                <script src="{{asset('assets/libs/node-waves/waves.min-3.js')}}"></script>
+                <script src="{{asset('assets/libs/feather-icons/feather.min-3.js')}}"></script>
+                <!-- pace js -->
+                <script src="{{asset('assets/libs/pace-js/pace.min-3.js')}}"></script>
 
 
-        <script src="{{asset('assets/libs/echarts/echarts.min.js')}}"></script>
-        <!-- echarts init -->
-        <script src="{{asset('assets/js/pages/echarts.init.js')}}"></script>
-        <script src="{{asset('assets/js/app.js')}}"></script>
+                <!-- apexcharts -->
+                <script src="{{asset('assets/libs/apexcharts/apexcharts.min-3.js')}}"></script>
 
+                <!-- Plugins js-->
+                <script src="{{asset('assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min-3.js')}}"></script>
+                <script src="{{asset('assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en-3.js')}}"></script>
+
+                <script src="{{asset('assets/js/pages/allchart-3.js')}}"></script>
+                <!-- dashboard init -->
+                <script src="{{asset('assets/js/pages/dashboard.init-3.js')}}"></script>
+
+                <script src="{{asset('assets/js/app-3.js')}}"></script>
 
     </body>
 
